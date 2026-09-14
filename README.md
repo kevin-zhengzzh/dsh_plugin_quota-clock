@@ -1,4 +1,4 @@
-# quota-clock
+# dsh_plugin_quota-clock
 
 **English** | [中文](#中文)
 
@@ -65,7 +65,7 @@ pnpm install
 
 The web profile's `package.json` must declare:
 
-- `dependencies.quota-clock`: `link:<absolute path to the plugin>`
+- `dependencies.dsh_plugin_quota-clock`: `link:<absolute path to the plugin>`
 - `dsh.profile.bundles`: append `"quota-clock"`
 
 How changes take effect is described under "Development notes" below (the client half hot-reloads; the Node half and `package.json` need a restart).
@@ -183,7 +183,7 @@ pnpm install
 
 web profile 的 `package.json` 需声明：
 
-- `dependencies.quota-clock`: `link:<插件目录绝对路径>`
+- `dependencies.dsh_plugin_quota-clock`: `link:<插件目录绝对路径>`
 - `dsh.profile.bundles`: 追加 `"quota-clock"`
 
 改动生效方式见文末「开发备注」（client half 热重载、Node half / package.json 需重启）。
