@@ -1,0 +1,58 @@
+{
+  "name": "quota-clock",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DSH Web GUI plugin: remaining DeepSeek API balance + a 24-hour clock whose dial marks Beijing peak-pricing windows in red",
+  "main": "lib/index.mjs",
+  "files": [
+    "lib/index.mjs",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node scripts/smoke-test.mjs && node scripts/verify-i18n.mjs && node scripts/verify-time.mjs",
+    "test:smoke": "node scripts/smoke-test.mjs",
+    "test:i18n": "node scripts/verify-i18n.mjs",
+    "test:time": "node scripts/verify-time.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "dependencies": {
+    "schemastery": "^3.18.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "quota",
+    "balance",
+    "clock",
+    "timezone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-zhengzzh/quota-clock.git"
+  },
+  "homepage": "https://github.com/kevin-zhengzzh/quota-clock#readme",
+  "bugs": {
+    "url": "https://github.com/kevin-zhengzzh/quota-clock/issues"
+  },
+  "author": "kevin-zhengzzh",
+  "license": "MIT"
+}

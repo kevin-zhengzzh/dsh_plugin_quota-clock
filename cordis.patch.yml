@@ -1,0 +1,6 @@
+# quota-clock bundle patch: mounts quota-clock into the web composition
+# (the Node half serves the /quota-clock/state route; the client half is
+# mounted by the official __ModuleLoader__ kernel and renders the widget).
+- insert:
+    - id: quota-clock
+      name: quota-clock

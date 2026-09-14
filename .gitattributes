@@ -1,0 +1,11 @@
+# Normalize line endings: LF in the repository (and on checkout under Windows
+# too), so cross-platform diffs stay free of noise.
+* text=auto eol=lf
+
+# Binary assets are never treated as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary

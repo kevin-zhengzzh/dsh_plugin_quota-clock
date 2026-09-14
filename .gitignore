@@ -1,0 +1,16 @@
+# Dependencies (transitive dependencies are covered too; see README for install)
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Logs and temporary artifacts
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.tmp/
