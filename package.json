@@ -1,5 +1,5 @@
 {
-  "name": "dsh_plugin_quota-clock",
+  "name": "quota-clock",
   "version": "0.1.0",
   "type": "module",
   "description": "DSH Web GUI plugin: remaining DeepSeek API balance + a 24-hour clock whose dial marks Beijing peak-pricing windows in red",
