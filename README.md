@@ -4,7 +4,7 @@
 
 A DSH Web GUI plugin: **remaining DeepSeek API balance** plus a **24-hour clock** whose dial marks the Beijing-time peak-pricing windows in red and converts them to your local time. Peak pricing applies on **Mon–Fri 09:00–12:00 and 14:00–18:00 Beijing time**; off-peak costs half the peak price.
 
-> Repository: <https://github.com/kevin-zhengzzh/quota-clock> · License: MIT · Scope: DSH Web (`dsh.client.platform = web`, verified on `@deepseek-ai/dsh@0.1.5-rc.2`)
+> Repository: <https://github.com/kevin-zhengzzh/dsh_plugin_quota-clock> · License: MIT · Scope: DSH Web (`dsh.client.platform = web`, verified on `@deepseek-ai/dsh@0.1.5-rc.2`)
 
 ## Features
 
@@ -45,7 +45,7 @@ Node-half errors are delivered as structured codes (`missing_key` / `http` / `ti
 ### From GitHub (recommended)
 
 ```sh
-dsh plugin --profile web add github:kevin-zhengzzh/quota-clock
+dsh plugin --profile web add github:kevin-zhengzzh/dsh_plugin_quota-clock
 # then restart DSH Web (Node-half loader entries are fixed at startup)
 ```
 
@@ -122,7 +122,7 @@ TZ=America/New_York npm run test:time   # verify the conversion under another lo
 
 DSH Web GUI 插件：**DeepSeek API 剩余额度** + **24 小时时钟**（表盘用红色标出北京时间的收费高峰时段，自动换算成你的本地时间；高峰为北京时间周一至周五 `09:00–12:00`、`14:00–18:00`，空闲价为高峰价的一半）。
 
-> 仓库：<https://github.com/kevin-zhengzzh/quota-clock> · 许可：MIT · 适用：DSH Web（`dsh.client.platform = web`，在 `@deepseek-ai/dsh@0.1.5-rc.2` 上验证）
+> 仓库：<https://github.com/kevin-zhengzzh/dsh_plugin_quota-clock> · 许可：MIT · 适用：DSH Web（`dsh.client.platform = web`，在 `@deepseek-ai/dsh@0.1.5-rc.2` 上验证）
 
 ## 功能
 
@@ -163,7 +163,7 @@ Node half 的错误经结构化错误码（`missing_key` / `http` / `timeout` / 
 ### 从 GitHub 安装（推荐）
 
 ```sh
-dsh plugin --profile web add github:kevin-zhengzzh/quota-clock
+dsh plugin --profile web add github:kevin-zhengzzh/dsh_plugin_quota-clock
 # 然后重启 DSH Web（Node half 的 loader 条目在启动时固定）
 ```
 

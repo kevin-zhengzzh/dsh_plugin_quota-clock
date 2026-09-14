@@ -47,11 +47,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevin-zhengzzh/quota-clock.git"
+    "url": "git+https://github.com/kevin-zhengzzh/dsh_plugin_quota-clock.git"
   },
-  "homepage": "https://github.com/kevin-zhengzzh/quota-clock#readme",
+  "homepage": "https://github.com/kevin-zhengzzh/dsh_plugin_quota-clock#readme",
   "bugs": {
-    "url": "https://github.com/kevin-zhengzzh/quota-clock/issues"
+    "url": "https://github.com/kevin-zhengzzh/dsh_plugin_quota-clock/issues"
   },
   "author": "kevin-zhengzzh",
   "license": "MIT"
